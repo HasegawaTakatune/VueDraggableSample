@@ -1,43 +1,43 @@
 # VueDraggableSample
 
-## Overview
+## 概要
 
-This is a sample application demonstrating drag-and-drop (D&D) functionality for moving parent-child tasks.
-Tasks are categorized by status into groups, and movement is restricted within or between these groups.
+D＆D で親子関係のタスクを移動するサンプルです。
+各ステータスをグループ分けして、グループごとの移動制限しています。
 
 <video src="[URL](https://youtu.be/syl0IkLOJA0)" controls="true"></video>
 
-## Group Relationship Diagram
+## グループ関係図
 
 ![Image](public/VueDraggableSample.drawio.png)
 
-## Environment
+## 環境
 
 - Vue 3.5.13
 - Vite v6.2.5
 - NPM 10.1.0
 
-## Project Setup
+## プロジェクトセットアップ
 
-### Package Installation
+### パッケージインストール
 
 ```sh
 npm install
 ```
 
-### Development Server
+### Compile and Hot-Reload for Development
 
 ```sh
 npm run dev
 ```
 
-### Production Build
+### Type-Check, Compile and Minify for Production
 
 ```sh
 npm run build
 ```
 
-## References
+## 参考
 
 - vue-draggable-plus
   - [Nesting](https://vue-draggable-plus.pages.dev/en/demo/nested/)
